@@ -93,16 +93,22 @@ babyshark/
 ## Hardware Requirements
 
 **Supported AMD GPUs (ROCm):**
-- AMD Radeon RX 9060XT
-- AMD Radeon RX 9070 / 9070XT
-- AMD Radeon RX 7800XT (16GB - recommended minimum)
-- AMD Radeon RX 7900GRE
-- AMD Radeon RX 7900XT / 7900XTX
+- AMD Radeon RX 9060XT (16GB - recommended minimum)
+- AMD Radeon RX 9070 / 9070XT (16GB)
+- AMD Radeon RX 7800XT (16GB)
+- AMD Radeon RX 7900GRE (16GB)
+- AMD Radeon RX 7900XT / 7900XTX (24GB)
 
 **Minimum Requirements:**
-- 16GB VRAM (e.g., RX 7800XT)
+- 16GB VRAM (e.g., RX 9060XT)
 - ROCm 5.5 or later
 - 32GB System RAM recommended
+
+**Tested On:**
+- GPU - RX 7800XT 16GB
+- CPU - R5 7600X 12-Threads
+- RAM - 32GB 6000MHz CL 30
+- OS - Linux via WSL
 
 ## Notes
 
