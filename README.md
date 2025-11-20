@@ -1,4 +1,4 @@
-# Helix — ~100M Llama-style Language Model
+# Helix🧬 ~100M Llama-style Language Model
 
 A complete, modern training stack for building small language models from scratch on **AMD GPUs with ROCm**. Optimized for AMD Radeon RX 7000 & 9000 series (7800XT, 7900GRE, 7900XT, 7900XTX, 9060XT, 9070, 9070XT). Includes tokenizer training, data preparation, pretraining, supervised fine-tuning (SFT), optional DPO, GGUF export, agent demo, and Hugging Face deployment.
 
