@@ -1,0 +1,18 @@
+# DirectML PyTorch for AMD GPU on Windows (Python 3.11 required)
+torch-directml
+
+# Let pip resolve compatible versions automatically
+transformers
+datasets
+accelerate
+tokenizers
+huggingface_hub
+
+# Training utilities
+peft
+trl
+
+# Essential dependencies
+numpy
+evaluate
+jsonschema

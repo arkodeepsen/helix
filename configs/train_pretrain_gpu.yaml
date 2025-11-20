@@ -1,0 +1,17 @@
+# GPU-optimized pretrain for 7800XT (16GB VRAM)
+seq_len: 1024
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 2
+learning_rate: 3.0e-4
+weight_decay: 0.05
+warmup_steps: 50
+total_steps: 500
+lr_scheduler_type: cosine
+bf16: true
+fp16: false
+gradient_checkpointing: true
+max_grad_norm: 1.0
+logging_steps: 10
+save_steps: 250
+save_total_limit: 2
+num_workers: 4

@@ -1,0 +1,19 @@
+Large Language Models (LLMs) are autoregressive transformers trained to predict tokens.
+They are capable of following instructions, writing code, and performing tool calls.
+
+# Python example
+
+def two_sum(nums, target):
+    table = {}
+    for i, x in enumerate(nums):
+        if target - x in table:
+            return [table[target - x], i]
+        table[x] = i
+    return []
+
+# JSON format example
+{
+  "name": "Alice",
+  "age": 30,
+  "skills": ["python", "ml"]
+}

@@ -1,0 +1,2 @@
+{"prompt":"Return a JSON object with two keys 'a' and 'b' both numbers.","chosen":"{\"a\":1,\"b\":2}","rejected":"{a:1,b:2}"}
+{"prompt":"Call the add tool with a=4 and b=5.","chosen":"{\"tool_call\":{\"name\":\"add\",\"arguments\":{\"a\":4,\"b\":5}}}","rejected":"Use add on 4 and 5"}
